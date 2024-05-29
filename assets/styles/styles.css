@@ -1,0 +1,187 @@
+/* Reset some default styles */
+body, h1, h2, p, ul, li, a, input, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+}
+
+/* Container for header elements */
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #00274C; /* Adjusted for better contrast */
+}
+
+.logo img {
+    height: 50px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff; /* Adjusted for better contrast */
+    font-weight: bold;
+}
+
+.search-signin {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.search-signin input {
+    padding: 5px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.signin-btn {
+    padding: 5px 10px;
+    background-color: #FFA500; /* Adjusted for better visibility */
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Hero section */
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.hero h1 {
+    font-size: 2em;
+    color: #00274C;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.go-to-map-btn {
+    padding: 10px 20px;
+    background-color: #00274C;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.how-to-use-link {
+    display: block;
+    margin-top: 10px;
+    color: #00274C;
+    text-decoration: none;
+    font-size: 0.9em;
+}
+
+/* Profile section */
+.profile {
+    padding: 20px;
+    background-color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.profile-card {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.profile-card img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+.profile-card h2 {
+    margin-top: 10px;
+}
+
+.profile-card p {
+    margin-top: 5px;
+    color: #777;
+}
+
+.profile-tabs button {
+    margin: 10px 5px;
+    padding: 5px 10px;
+    background-color: #00274C;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.profile-description {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.research-areas {
+    margin-top: 20px;
+}
+
+.research-areas span {
+    display: inline-block;
+    margin: 5px;
+    padding: 5px 10px;
+    background-color: #eee;
+    border-radius: 3px;
+}
+
+/* Visualization section */
+.visualization {
+    padding: 20px;
+    background-color: #ffffff;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Partners section */
+.partners {
+    padding: 20px;
+    background-color: #ffffff;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.partner-logos {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+footer {
+    background-color: #00274C;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+}
